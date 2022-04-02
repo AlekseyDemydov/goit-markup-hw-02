@@ -17,6 +17,10 @@
     
     background: #FFFFFF; */
 }
+li{
+    list-style-type: none;
+}
+
 
 .mail{
 position: absolute;
@@ -50,13 +54,13 @@ letter-spacing: 0.02em;
 
 color: #757575;
 }
-.stodio{
+.studio{
     position: absolute;
     width: 49px;
     height: 16px;
     left: 453px;
     top: 32px;
-    
+    color: #f37221;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -64,10 +68,11 @@ color: #757575;
     line-height: 16px;
     letter-spacing: 0.02em;
     
-    color: #2196F3;
+    
 }
-.stodio {
-
+.studio:hover,
+.studio:focus {
+    background: #2196F3;
 }
 .porfolio{
     position: absolute;

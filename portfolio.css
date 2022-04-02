@@ -10,6 +10,9 @@
     
     background: #FFFFFF;
 }
+li{
+    list-style-type: none;
+}
 
 .mail {
     position: absolute;
@@ -45,7 +48,7 @@
     color: #757575;
 }
 
-.stodio {
+.studio {
     position: absolute;
     width: 49px;
     height: 16px;
@@ -60,6 +63,10 @@
     letter-spacing: 0.02em;
 
     color: #2196F3;
+}
+.studio:hover,
+.studio:focus{
+    color: red;
 }
 
 .porfolio {
