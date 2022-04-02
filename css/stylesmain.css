@@ -66,6 +66,9 @@ color: #757575;
     
     color: #2196F3;
 }
+.stodio {
+
+}
 .porfolio{
     position: absolute;
     width: 77px;
@@ -106,9 +109,9 @@ color: #757575;
     width: 1600px;
     height: 80px;
     left: 0px;
-    top: 0px;
+    top: 0px; */
 
-    background: #FFFFFF; */
+    background: #FFFFFF;
 }
 .webstudio{
     position: absolute;
