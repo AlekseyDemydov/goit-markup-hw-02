@@ -8,14 +8,6 @@
 .head{
    display: flex;
    flex-direction: row-reverse;
-   /* margin: auto 20px;
-    position: absolute;
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
-    
-    background: #FFFFFF; */
 }
 li{
     list-style-type: none;
@@ -36,7 +28,10 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 
-color: #2196F3;
+color: #757575;
+}
+.mail:hover{
+    color: #2196F3;
 }
 .tel{
 position: absolute;
@@ -54,6 +49,43 @@ letter-spacing: 0.02em;
 
 color: #757575;
 }
+.webstudio {
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #2196F3;
+}
+.studio-up{
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 275px;
+    top: 24px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;
+    
+    color: #000000;
+}
+
 .studio{
     position: absolute;
     width: 49px;
@@ -117,24 +149,6 @@ color: #757575;
     top: 0px; */
 
     background: #FFFFFF;
-}
-.webstudio{
-    position: absolute;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px;
-    
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    /* identical to box height */
-    
-    letter-spacing: 0.03em;
-    
-    color: #2196F3;
 }
 .bg{
     position: absolute;
@@ -226,13 +240,36 @@ margin: 350px 700px 200px 700px;
 }
 .benefits{
 position: absolute;
-width: 1170px;
-height: 101px;
 left: 215px;
 top: 774px;
 
 display: flex;
 flex-direction: row;
+}
+.detal{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #212121;
+}
+.detal-op{
+    width: 270px;
+    height: 75px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #757575;
 }
 .zan{
 position: absolute;
@@ -311,20 +348,19 @@ color: #212121;
     flex-direction: row;
 }
 
-/* .team-box{
-    position: absolute;
-    width: 270px;
-    height: 368px;
-    margin: 186px 1115px 94px 215px;
-    
-    background: #FFFFFF; */
-    /* material shadow v1 */
-    
-    /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-} */
+.pro-igor{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
 .igor{
 position: absolute;
 width: 270px;
@@ -344,6 +380,19 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
 0px 1px 1px rgba(0, 0, 0, 0.14),
 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
 }
 .olha{
 position: absolute;
@@ -366,6 +415,31 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
 0px 1px 1px rgba(0, 0, 0, 0.14),
 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+.pro-olha{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #757575;
 }
 .nikolay{
 position: absolute;
@@ -388,6 +462,34 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
 0px 1px 1px rgba(0, 0, 0, 0.14),
 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
+
+}
+.name-nikolay{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+}
+
+.pro-nikolay{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
 }
 .myhail{
 position: absolute;
@@ -410,6 +512,31 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
 0px 1px 1px rgba(0, 0, 0, 0.14),
 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+.pro-myhail{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
 }
 footer{
     position: absolute;
@@ -438,6 +565,25 @@ footer{
     letter-spacing: 0.03em;
     
     color: #2196F3;
+}
+.studioo{
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    /* left: 215px;
+        top: 2157px; */
+    margin: 60px 1240px 161px 275px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;
+    
+    color: #FFFFFF;
 }
 .address{
     position: absolute;
