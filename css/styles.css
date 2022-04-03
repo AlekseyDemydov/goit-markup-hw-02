@@ -311,7 +311,20 @@ color: #212121;
     flex-direction: row;
 }
 
-
+/* .team-box{
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    margin: 186px 1115px 94px 215px;
+    
+    background: #FFFFFF; */
+    /* material shadow v1 */
+    
+    /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+} */
 .igor{
 position: absolute;
 width: 270px;
@@ -320,6 +333,17 @@ margin: 186px 1115px 202px 215px;
 
 background: url(4853.jpg);
 border-radius: 0px;
+
+position: absolute;
+width: 270px;
+height: 368px;
+margin: 186px 1115px 94px 215px;
+background: #FFFFFF;
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+0px 1px 1px rgba(0, 0, 0, 0.14),
+0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
 }
 .olha{
 position: absolute;
@@ -329,6 +353,19 @@ margin: 186px 815px 202px 515px;
 
 background: url(5844.jpg);
 border-radius: 0px;
+
+position: absolute;
+width: 270px;
+height: 368px;
+margin: 186px 815px 94px 515px;
+
+background: #FFFFFF;
+/* material shadow v1 */
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+0px 1px 1px rgba(0, 0, 0, 0.14),
+0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
 }
 .nikolay{
 position: absolute;
@@ -338,6 +375,19 @@ margin: 186px 515px 202px 815px;
 
 background: url(16166.jpg);
 border-radius: 0px;
+
+position: absolute;
+width: 270px;
+height: 368px;
+margin: 186px 515px 94px 815px;
+
+background: #FFFFFF;
+/* material shadow v1 */
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+0px 1px 1px rgba(0, 0, 0, 0.14),
+0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
 }
 .myhail{
 position: absolute;
@@ -347,6 +397,19 @@ margin: 186px 215px 202px 1115px;
 
 background: url(2968.jpg);
 border-radius: 0px;
+
+position: absolute;
+width: 270px;
+height: 368px;
+margin: 186px 215px 94px 1115px;
+
+background: #FFFFFF;
+/* material shadow v1 */
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+0px 1px 1px rgba(0, 0, 0, 0.14),
+0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
 }
 footer{
     position: absolute;
