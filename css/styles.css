@@ -1,3 +1,4 @@
+                                                                /* page */
 .main{
     position: relative;
     width: 1600px;
@@ -5,6 +6,7 @@
 
     background: white;
 }
+                                                               /* header */
 .head{
    display: flex;
    flex-direction: row-reverse;
@@ -49,6 +51,9 @@ letter-spacing: 0.02em;
 
 color: #757575;
 }
+.tel:hover{
+    color: #2196F3;
+}
 .webstudio {
     position: absolute;
     width: 145px;
@@ -85,14 +90,14 @@ color: #757575;
     
     color: #000000;
 }
-
+                                                           /* main menu */
 .studio{
     position: absolute;
     width: 49px;
     height: 16px;
     left: 453px;
     top: 32px;
-    color: #f37221;
+    color: #212121;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -102,9 +107,8 @@ color: #757575;
     
     
 }
-.studio:hover,
-.studio:focus {
-    background: #2196F3;
+.studio:hover{
+    color: #2196F3;
 }
 .porfolio{
     position: absolute;
@@ -122,6 +126,9 @@ color: #757575;
     
     color: #212121;
 }
+.porfolio:hover{
+    color: #2196F3;
+}
 .contacts{
     position: absolute;
     width: 68px;
@@ -138,16 +145,13 @@ color: #757575;
     
     color: #212121;
 }
-.head-word {
+.contacts:hover{
+    color: #2196F3;
+}
+                                                               /* bg */
+.head-word { 
     display: flex;
     flex-direction: row-reverse;
-    /* margin: auto 20px;
-    position: absolute;
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px; */
-
     background: #FFFFFF;
 }
 .bg{
@@ -222,6 +226,8 @@ margin: 350px 700px 200px 700px;
     
     color: #FFFFFF;
 }
+                                                             /* benefits */
+
 .our-benefits{
     position: absolute;
     width: 400px;
@@ -271,11 +277,15 @@ flex-direction: row;
     
     color: #757575;
 }
-.zan{
+                                                          /* affair */
+
+.our-affair{
 position: absolute;
 width: 400px;
 height: 42px;
-margin: 900px 612px 1338px 612px;
+left: 612px;
+top: 950px;
+/* margin: 969px 612px 1338px 612px; */
 
 font-family: 'Roboto';
 font-style: normal;
@@ -287,12 +297,18 @@ letter-spacing: 0.03em;
 
 color: #212121;
 }
+.affair{
+   
+    display: flex;
+    flex-direction: row;
+}
 
 
 .one{
     position: absolute;
     width: 370px;
     height: 294px;
+    /* margin: 1061px 1015px 994px 215px; */
     left: 215px;
     top: 1061px;
     
@@ -305,6 +321,7 @@ color: #212121;
     height: 294px;
     left: 615px;
     top: 1061px;
+    /* margin: 1061px 615px 994px 65px; */
     
     background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
 }
@@ -314,14 +331,18 @@ color: #212121;
     height: 294px;
     left: 1015px;
     top: 1061px;
+    /* margin: 1061px 215px 994px 1015px; */
     
     background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
 }
+
+                                                        /* team box */
+
 .team-box{
     position: absolute;
     width: 1600px;
     height: 648px;
-    left: 0px;
+    
     top: 1449px;
     
     background: #F5F4FA;
@@ -348,65 +369,46 @@ color: #212121;
     flex-direction: row;
 }
 
-.pro-igor{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
-
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #757575;
-}
-.igor{
-position: absolute;
-width: 270px;
-height: 260px;
-margin: 186px 1115px 202px 215px;
-
-background: url(4853.jpg);
-border-radius: 0px;
-
-position: absolute;
-width: 270px;
-height: 368px;
-margin: 186px 1115px 94px 215px;
-background: #FFFFFF;
-
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-0px 1px 1px rgba(0, 0, 0, 0.14),
-0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
-
-
-font-family: 'Roboto';
-font-style: normal;
+.name{
 font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
-
-text-align: center;
-letter-spacing: 0.03em;
-
 color: #212121;
 }
+.pro{
+font-weight: 400;
+color: #757575;
+}
+
+.igor{
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 215px;
+    top: 186px;
+    
+    background: #FFFFFF;
+    /* material shadow v1 */
+    
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
 .olha{
 position: absolute;
 width: 270px;
-height: 260px;
-margin: 186px 815px 202px 515px;
-
-background: url(5844.jpg);
-border-radius: 0px;
-
-position: absolute;
-width: 270px;
 height: 368px;
-margin: 186px 815px 94px 515px;
+left: 515px;
+top: 186px;
 
 background: #FFFFFF;
 /* material shadow v1 */
@@ -418,42 +420,20 @@ border-radius: 0px 0px 4px 4px;
 
 font-family: 'Roboto';
 font-style: normal;
-font-weight: 500;
 font-size: 16px;
 line-height: 19px;
 /* identical to box height */
 
 text-align: center;
 letter-spacing: 0.03em;
+}
 
-color: #212121;
-}
-.pro-olha{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    /* identical to box height */
-    
-    text-align: center;
-    letter-spacing: 0.03em;
-    
-    color: #757575;
-}
 .nikolay{
 position: absolute;
 width: 270px;
-height: 260px;
-margin: 186px 515px 202px 815px;
-
-background: url(16166.jpg);
-border-radius: 0px;
-
-position: absolute;
-width: 270px;
 height: 368px;
-margin: 186px 515px 94px 815px;
+left: 815px;
+top: 186px;
 
 background: #FFFFFF;
 /* material shadow v1 */
@@ -463,25 +443,8 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 
-}
-.name-nikolay{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    /* identical to box height */
-    
-    text-align: center;
-    letter-spacing: 0.03em;
-    
-    color: #212121;
-}
-
-.pro-nikolay{
 font-family: 'Roboto';
 font-style: normal;
-font-weight: 400;
 font-size: 16px;
 line-height: 19px;
 /* identical to box height */
@@ -489,21 +452,13 @@ line-height: 19px;
 text-align: center;
 letter-spacing: 0.03em;
 
-color: #757575;
 }
 .myhail{
 position: absolute;
 width: 270px;
-height: 260px;
-margin: 186px 215px 202px 1115px;
-
-background: url(2968.jpg);
-border-radius: 0px;
-
-position: absolute;
-width: 270px;
 height: 368px;
-margin: 186px 215px 94px 1115px;
+left: 1115px;
+top: 186px;
 
 background: #FFFFFF;
 /* material shadow v1 */
@@ -515,29 +470,14 @@ border-radius: 0px 0px 4px 4px;
 
 font-family: 'Roboto';
 font-style: normal;
-font-weight: 500;
 font-size: 16px;
 line-height: 19px;
 /* identical to box height */
 
 text-align: center;
 letter-spacing: 0.03em;
-
-color: #212121;
 }
-.pro-myhail{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
-
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #757575;
-}
+                                                    /* footer */
 footer{
     position: absolute;
     width: 1600px;
@@ -592,4 +532,45 @@ footer{
     /* left: 215px;
     top: 2208px; */
     margin: 111px 1154px 60px 215px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #FFFFFF;
+}
+.mail-down{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    color: rgba(255, 255, 255, 0.6);
+}
+.mail-down:hover{
+    color: #2196F3;
+}
+.tel-down{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    color: rgba(255, 255, 255, 0.6);
+}
+.tel-down:hover{
+    color: #2196F3;
 }
