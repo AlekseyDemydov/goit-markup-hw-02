@@ -35,10 +35,7 @@ header{
     flex-direction: row;
 }
 .web{
-    
-    left: 215px;
-    top: 24px;
-    
+        
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -52,8 +49,6 @@ header{
 }
 .studio-up{
     
-    left: 215px;
-    top: 24px;
     
     font-family: 'Raleway';
     font-style: normal;
