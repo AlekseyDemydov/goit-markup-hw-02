@@ -76,50 +76,32 @@ header{
     letter-spacing: 0.02em;
 }
 .studio{
-    position: absolute;
-    left: 453px;
-    top: 32px;
+  
     color: var(--text-color);
 }
 .portfolio{
-    position: absolute;
-    left: 552px;
-    top: 32px;
+    
     color: var(--text-color);
 }
 .contacts{
-    position: absolute;
-    left: 679px;
-    top: 32px;
+   
     color: var(--text-color);
 }
 .tel{
-    position: absolute;
-    left: 1078px;
-    top: 32px;
+   
     color: var(--second-text);
 }
 .mail{
-    position: absolute;
-    left: 1263px;
-    top: 32px;
+   
     color: var(--second-text);
 }
 /* blue box */
 .box-section{
-    position: absolute;
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
+    
     background: var(--brand-color);
 }
 .box-word{
-    position: absolute;
-    width: 696px;
-    height: 120px;
-    left: 452px;
-    top: 200px;
+    
     
     font-weight: 900;
     font-size: 44px;
@@ -134,11 +116,7 @@ header{
 }
 
 .button-box{
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
+    
     background: var(--button-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -156,13 +134,7 @@ header{
     color: var(--background-color);
 }
 /* main */
-.benefits-section{
-    position: absolute;
-    width: 1170px;
-    height: 101px;
-    left: 215px;
-    top: 774px;
-}
+
 .detal{
     
 font-weight: 700;
@@ -183,13 +155,7 @@ letter-spacing: 0.03em;
 color: var(--second-text);
 }
 .work-section{
-    position: absolute;
-    width: 1170px;
-    height: 386px;
-    left: 215px;
-    top: 969px;
-
-    
+        
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -200,11 +166,7 @@ color: var(--second-text);
 }
 
 .team-section{
-    position: absolute;
-    width: 1600px;
-    height: 648px;
-    left: 0px;
-    top: 1449px;
+    
     
     background: #F5F4FA;
 
@@ -216,12 +178,7 @@ color: var(--second-text);
     
     color: var(--text-color);
 }
-.our-team{
-position: absolute;
-width: 1170px;
-height: 368px;
-left: 215px;
-}
+
 footer{
     background-color: var(--brand-color);
 }
