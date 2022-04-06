@@ -8,13 +8,14 @@
 body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
      'Open Sans', 'Helvetica Neue', sans-serif;
-    
-    
+        
     background: var(--background-color);
+    margin: 0;
+    padding: ;
 }
 button{
     cursor: pointer;
-    text-align: center;
+    
 }
 li{
     list-style-type: none;
@@ -24,12 +25,6 @@ a{
 }
 /* header */
 header{
-    position: absolute;
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
-    
     background: var(--background-color);
     display: flex;
     flex-direction: row;
@@ -69,14 +64,7 @@ header{
 .button-portfolio:hover{
     color: var(--button-color);
 }
-.studio:focus,
-.portfolio:focus,
-.contacts:focus,
-.mail:focus,
-.tel:focus,
-.map:focus,
-.mail-down:focus,
-.tel-down:focus,
+.studio:focus,.portfolio:focus,.contacts:focus,.mail:focus,.tel:focus,.map:focus,.mail-down:focus,.tel-down:focus,
 .button-portfolio:focus {
     color: var(--button-color);}
 .navigation,
@@ -167,6 +155,7 @@ header{
     
     color: var(--background-color);
 }
+/* main */
 .benefits-section{
     position: absolute;
     width: 1170px;
@@ -233,6 +222,9 @@ width: 1170px;
 height: 368px;
 left: 215px;
 }
+footer{
+    background-color: var(--brand-color);
+}
 
 .img-box{
     width: 270px;
@@ -267,15 +259,6 @@ left: 215px;
     letter-spacing: 0.03em;
     
     color: var(--second-text);
-}
-footer{
-    position: absolute;
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 2097px;
-    
-    background: var(--brand-color);
 }
 .web-down{
    
@@ -326,13 +309,6 @@ footer{
     color: rgba(255, 255, 255, 0.6);
 }
 
-.main-setion-portfolio{
-    position: absolute;
-    width: 1170px;
-    height: 1360px;
-    left: 215px;
-    top: 174px;
-}
 .button-portfolio{
 justify-content: center;
 
@@ -347,6 +323,9 @@ justify-content: center;
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button-portfolio button:hover{
+    background-color: var(--button-color);
+}
+.button-portfolio button:focus {
     background-color: var(--button-color);
 }
 .img-block{    
@@ -377,12 +356,4 @@ justify-content: center;
     letter-spacing: 0.03em;
     
     color: var(--second-text);
-}.footer-portfolio{
-    position: absolute;
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 1628px;
-    
-    background: var(--brand-color);
 }
