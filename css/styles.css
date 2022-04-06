@@ -1,9 +1,16 @@
+:root{
+    --background-color: #ffffff;
+    --brand-color: #2F303A;
+    --button-color: #2196F3;
+    --text-color: #212121;
+    --second-text: #757575;
+}
 body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
      'Open Sans', 'Helvetica Neue', sans-serif;
     
     
-    background: #FFFFFF;
+    background: var(--background-color);
 }
 button{
     cursor: pointer;
@@ -11,6 +18,9 @@ button{
 }
 li{
     list-style-type: none;
+}
+a{
+    text-decoration: none;
 }
 /* header */
 header{
@@ -20,19 +30,12 @@ header{
     left: 0px;
     top: 0px;
     
-    background: #FFFFFF;
+    background: var(--background-color);
     display: flex;
     flex-direction: row;
-
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
 }
 .web{
     
-    width: 145px;
-    height: 31px;
     left: 215px;
     top: 24px;
     
@@ -45,12 +48,10 @@ header{
     
     letter-spacing: 0.03em;
     
-    color: #2196F3;
+    color: var(--button-color);
 }
 .studio-up{
     
-    width: 145px;
-    height: 31px;
     left: 215px;
     top: 24px;
     
@@ -63,7 +64,7 @@ header{
     
     letter-spacing: 0.03em;
     
-    color: #000000;
+    color: var(--text-color);
 }
 .navigation,.info,.our-benefits,.our-work,.our-team,.button-portfolio,.first-block{
     display: flex;
@@ -71,47 +72,55 @@ header{
 }
 .studio:hover,.portfolio:hover,.contacts:hover,.mail:hover,.tel:hover,.map:hover,.mail-down:hover,.tel-down:hover,
 .button-portfolio:hover{
-    color: #2196F3;
+    color: var(--button-color);
+}
+.studio:focus,
+.portfolio:focus,
+.contacts:focus,
+.mail:focus,
+.tel:focus,
+.map:focus,
+.mail-down:focus,
+.tel-down:focus,
+.button-portfolio:focus {
+    color: var(--button-color);}
+.navigation,
+.info{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 .studio{
     position: absolute;
-    width: 49px;
-    height: 16px;
     left: 453px;
     top: 32px;
-    color: #757575;
+    color: var(--text-color);
 }
 .portfolio{
     position: absolute;
-    width: 77px;
-    height: 16px;
     left: 552px;
     top: 32px;
-    color: #757575;
+    color: var(--text-color);
 }
 .contacts{
     position: absolute;
-    width: 68px;
-    height: 16px;
     left: 679px;
     top: 32px;
-    color: #757575;
+    color: var(--text-color);
 }
 .tel{
     position: absolute;
-    width: 135px;
-    height: 16px;
     left: 1078px;
     top: 32px;
-    color: #757575;
+    color: var(--second-text);
 }
 .mail{
     position: absolute;
-    width: 122px;
-    height: 16px;
     left: 1263px;
     top: 32px;
-    color: #757575;
+    color: var(--second-text);
 }
 /* blue box */
 .box-section{
@@ -120,7 +129,7 @@ header{
     height: 600px;
     left: 0px;
     top: 80px;
-    background: #2F303A;
+    background: var(--brand-color);
 }
 .box-word{
     position: absolute;
@@ -138,7 +147,7 @@ header{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     
-    color: #FFFFFF;
+    color: var(--background-color);
 }
 
 .button-box{
@@ -147,7 +156,7 @@ header{
     height: 50px;
     left: 700px;
     top: 430px;
-    background: #2196F3;
+    background: var(--button-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 
@@ -161,7 +170,7 @@ header{
     text-align: center;
     letter-spacing: 0.06em;
     
-    color: #FFFFFF;
+    color: var(--background-color);
 }
 .benefits-section{
     position: absolute;
@@ -171,26 +180,23 @@ header{
     top: 774px;
 }
 .detal{
-    width: 270px;
-    height: 16px;
+    
 font-weight: 700;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 
-color: #212121;
+color: var(--text-color);
 }
 .detal-op{
-    width: 270px;
-    height: 75px;
 font-size: 14px;
 line-height: 24px;
 /* or 171% */
 
 letter-spacing: 0.03em;
 
-color: #757575;
+color: var(--second-text);
 }
 .work-section{
     position: absolute;
@@ -206,7 +212,7 @@ color: #757575;
     text-align: center;
     letter-spacing: 0.03em;
     
-    color: #212121;
+    color: var(--text-color);
 }
 
 .team-section{
@@ -224,7 +230,7 @@ color: #757575;
     text-align: center;
     letter-spacing: 0.03em;
     
-    color: #212121;
+    color: var(--text-color);
 }
 .our-team{
 position: absolute;
@@ -237,7 +243,7 @@ left: 215px;
     width: 270px;
     height: 368px;
        
-    background: #FFFFFF;
+    background: var(--background-color);
     /* material shadow v1 */
     
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -254,7 +260,7 @@ left: 215px;
     text-align: center;
     letter-spacing: 0.03em;
     
-    color: #212121;
+    color: var(--text-color);
 }
 .name-op{
     font-weight: 400;
@@ -265,7 +271,7 @@ left: 215px;
     text-align: center;
     letter-spacing: 0.03em;
     
-    color: #757575;
+    color: var(--second-text);
 }
 footer{
     position: absolute;
@@ -274,15 +280,10 @@ footer{
     left: 0px;
     top: 2097px;
     
-    background: #2F303A;
+    background: var(--brand-color);
 }
 .web-down{
-    
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 2157px;
-    
+   
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -292,15 +293,10 @@ footer{
     
     letter-spacing: 0.03em;
     
-    color: #2196F3;
+    color: var(--button-color);
 }
 .studio-down{
     
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 2157px;
-    
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -310,17 +306,9 @@ footer{
     
     letter-spacing: 0.03em;
     
-    color: #FFFFFF;
-}
-address{
-   
-    height: 81px;
-    left: 215px;
-    top: 2208px;
+    color: var(--background-color);
 }
 .map{
-    width: 231px;
-    height: 21px;
     font-style: normal;
     font-weight: 450;
     font-size: 14px;
@@ -329,7 +317,7 @@ address{
     
     letter-spacing: 0.03em;
     
-    color: #FFFFFF;
+    color: var(--background-color);
 }
 .mail-down,.tel-down{
     font-style: normal;
@@ -356,8 +344,6 @@ justify-content: center;
 }
 .button-portfolio button{
 
-    height: 38px;
-    
     background: #F5F4FA;
     border-radius: 4px;
 
@@ -366,20 +352,18 @@ justify-content: center;
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button-portfolio button:hover{
-    background-color: #2196F3;
+    background-color: var(--button-color);
 }
 .img-block{    
     width: 370px;
     height: 404px;
         
-    background: #FFFFFF;
+    background: var(--background-color);
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
 }
 .name-box{
     
-    width: 360px;
-    height: 36px;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -387,12 +371,9 @@ justify-content: center;
     
     letter-spacing: 0.06em;
     
-    color: #212121;
+    color: var(--text-color);
 }
 .name-op-box{
-    
-    width: 322px;
-    height: 30px;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
@@ -400,7 +381,7 @@ justify-content: center;
     
     letter-spacing: 0.03em;
     
-    color: #757575;
+    color: var(--second-text);
 }.footer-portfolio{
     position: absolute;
     width: 1600px;
@@ -408,5 +389,5 @@ justify-content: center;
     left: 0px;
     top: 1628px;
     
-    background: #2F303A;
+    background: var(--brand-color);
 }
