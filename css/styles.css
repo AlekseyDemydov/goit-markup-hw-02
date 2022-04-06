@@ -10,8 +10,7 @@ body{
      'Open Sans', 'Helvetica Neue', sans-serif;
         
     background: var(--background-color);
-    margin: 0;
-    padding: ;
+   
 }
 button{
     cursor: pointer;
