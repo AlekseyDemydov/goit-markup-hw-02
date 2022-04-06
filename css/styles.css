@@ -56,7 +56,6 @@ header{
     color: var(--text-color);
 }
 
-}
 .studio:hover,.portfolio:hover,.contacts:hover,.mail:hover,.tel:hover,.map:hover,.mail-down:hover,.tel-down:hover,
 .button-portfolio:hover{
     color: var(--button-color);
