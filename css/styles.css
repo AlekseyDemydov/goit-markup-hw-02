@@ -55,9 +55,7 @@ header{
     
     color: var(--text-color);
 }
-.navigation,.info,.our-benefits,.our-work,.our-team,.button-portfolio,.first-block{
-    display: flex;
-    flex-direction: row;
+
 }
 .studio:hover,.portfolio:hover,.contacts:hover,.mail:hover,.tel:hover,.map:hover,.mail-down:hover,.tel-down:hover,
 .button-portfolio:hover{
